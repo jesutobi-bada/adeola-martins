@@ -1,0 +1,404 @@
+{
+  "eventovi": {
+    "title": "Eventovi",
+    "year": "2025",
+    "liveLink": "https://eventovi.com/",
+    "overview": "An event management platform built to simplify ticketing, guest check-in, volunteer coordination, analytics, donations, and overall event operations digitally.",
+    "heroImage": "/projects/banners/eventovi.svg",
+    "themeColor": "#49161A",
+    "roles": ["Event Tech", "Product Design", "UX Audit", "UX Writing"],
+    "platforms": ["mobile", "desktop"],
+    "problem": {
+      "heading": "Managing events across multiple tools and disconnected systems created operational complexity for organizers.",
+      "paragraphs": [
+        "Event organizers relied heavily on fragmented tools and manual processes to manage operations, leading to workflow inefficiencies, poor visibility, and operational complexity during live events.",
+        "Managing ticketing, guest check-ins, volunteer coordination, and event analytics across disconnected systems created friction for both organizers and attendees."
+      ]
+    },
+    "solution": {
+      "heading": "Designing a unified and scalable event management experience",
+      "intro": "I designed a scalable event management experience focused on simplifying operational workflows while improving visibility, usability, and efficiency across the platform.\n\nThe product experience was structured around:",
+      "features": [
+        "Simplified operational flows",
+        "Clear dashboard visibility",
+        "Faster task completion",
+        "Scalable platform architecture"
+      ]
+    },
+    "designDecisions": {
+      "heading": "Simplifying complex workflows through structured product decisions",
+      "items": [
+        {
+          "title": "Dashboard Clarity",
+          "description": "Designed a centralized dashboard that gives organizers quick access to ticket sales, event performance, attendance metrics, volunteer management, add-ons management, mails management, donations and operational insights."
+        },
+        {
+          "title": "Simplified Check-in Experience",
+          "description": "Optimized guest check-in workflows to reduce friction and improve operational speed during live events."
+        }
+      ]
+    },
+    "outcome": {
+      "heading": "The redesigned experience improved workflow clarity, operational visibility, and usability across key event management processes.",
+      "paragraphs": [
+        "The platform established a scalable foundation for future growth while creating a more intuitive experience for event organizers managing complex operations."
+      ]
+    },
+    "reflection": {
+      "heading": "Eventovi reinforced the importance of designing operational systems that balance complexity with usability.",
+      "paragraphs": [
+        "The project required strong product thinking, workflow organization, and scalable design decisions beyond visual interface design alone."
+      ]
+    },
+    "screenshots": {
+      "heading": "Product screens & experience highlights",
+      "description": "A visual walkthrough of key product experiences designed to simplify event operations, improve usability, and create a seamless management workflow across the platform.",
+      "images": [
+        "/projects/showcase/eventovi/1.svg",
+        "/projects/showcase/eventovi/2.svg",
+        "/projects/showcase/eventovi/3.svg",
+        "/projects/showcase/eventovi/4.svg",
+        "/projects/showcase/eventovi/5.svg",
+        "/projects/showcase/eventovi/6.svg"
+      ]
+    }
+  },
+  "cashtella": {
+    "title": "Cashtella",
+    "year": "2024",
+    "liveLink": "Coming Soon",
+    "overview": "Cashtella is a B2B fintech platform designed to help individuals and businesses send invoices, manage virtual debit cards, and process cross-border payments between the United States and Canada through a faster and more seamless digital experience.",
+    "heroImage": "/projects/banners/cashtella.svg",
+    "themeColor": "#F89504",
+    "roles": ["Fintech", "Product Design", "UX Audit", "UX Writing"],
+    "platforms": ["mobile", "desktop"],
+    "problem": {
+      "heading": "Sending money across borders shouldn't take days",
+      "paragraphs": [
+        "Traditional cross-border payment systems between the US and Canada often involve long processing times, multiple intermediaries, transaction delays, and poor payment visibility.",
+        "Businesses and individuals struggled with slow money transfers, delayed invoice settlements, complicated financial workflows, and limited transparency throughout the payment process. Existing systems also lacked modern user experiences, making international transactions feel stressful and inefficient."
+      ]
+    },
+    "solution": {
+      "heading": "Designing a faster and more seamless cross-border payment experience",
+      "intro": "The solution focused on simplifying financial operations through a blockchain-enabled payment infrastructure designed to reduce transfer delays and improve transaction efficiency between both countries.\n\nThe product experience was designed to help users send invoices faster, manage virtual debit cards seamlessly, monitor transactions clearly, and complete cross-border payments through a clean and intuitive interface.",
+      "features": []
+    },
+    "designDecisions": {
+      "heading": "Simplifying financial operations through better product experiences",
+      "items": [
+        {
+          "title": "Faster invoice management",
+          "description": "Designed streamlined invoice flows that help businesses and individuals create, send, and monitor invoices more efficiently."
+        },
+        {
+          "title": "Virtual debit card experience",
+          "description": "Created a simplified virtual card management experience focused on accessibility, visibility, and ease of use across financial operations."
+        },
+        {
+          "title": "Cross-border payment clarity",
+          "description": "Improved transaction visibility and financial workflows to help users better understand payment progress and operational status."
+        },
+        {
+          "title": "Blockchain-powered simplicity",
+          "description": "Focused on making complex blockchain-enabled financial systems feel intuitive and approachable for everyday users through cleaner UX patterns and simplified interactions."
+        }
+      ]
+    },
+    "outcome": {
+      "heading": "Creating a more modern and efficient payment experience",
+      "paragraphs": [
+        "The final product experience simplified invoice management, improved transaction clarity, and created a more seamless cross-border payment experience for businesses and individuals.",
+        "The cleaner workflows, modern financial interfaces, and structured payment systems helped reduce operational friction while improving usability across the platform."
+      ]
+    },
+    "reflection": {
+      "heading": "Designing financial products around speed, clarity, and trust",
+      "paragraphs": [
+        "Cashtella reinforced the importance of simplifying complex financial systems through thoughtful product design and user-centered experiences.",
+        "The project highlighted how strong UX decisions can make blockchain-enabled financial products feel more accessible, trustworthy, and easier to use for modern users."
+      ]
+    },
+    "screenshots": {
+      "heading": "Product screens & experience highlights",
+      "description": "A visual showcase of key web and mobile experiences designed to simplify invoice management, virtual debit card operations, and cross-border payment workflows seamlessly.",
+      "images": [
+        "/projects/showcase/cashtella/1.svg",
+        "/projects/showcase/cashtella/2.svg",
+        "/projects/showcase/cashtella/3.svg",
+        "/projects/showcase/cashtella/4.svg",
+        "/projects/showcase/cashtella/5.svg",
+        "/projects/showcase/cashtella/6.svg"
+      ]
+    }
+  },
+  "maneja-pro": {
+    "title": "Maneja Pro",
+    "year": "2026",
+    "liveLink": "Coming Soon Mobile Devices",
+    "overview": "A real estate mobile platform designed to simplify property discovery, content engagement, and seamless property browsing through short-form video experiences.",
+    "heroImage": "/projects/banners/maneja-pro.svg",
+    "themeColor": "#0B4238",
+    "roles": ["Real Estate", "Product Design", "UX Audit", "UX Writing"],
+    "platforms": ["mobile"],
+    "problem": {
+      "heading": "Finding properties in Nigeria often comes with too many hidden frictions",
+      "paragraphs": [
+        "Traditional real estate experiences in Nigeria are often filled with multiple agents, inconsistent property information, hidden fees, and unreliable listings that make property discovery stressful and time-consuming.",
+        "Users frequently deal with excessive agent charges, repeated middlemen involvement on a single property, and poor transparency during the property search process. Combined with outdated browsing experiences and static listings, finding the right property becomes frustrating and inefficient for modern users."
+      ]
+    },
+    "solution": {
+      "heading": "Designing a more transparent and direct property discovery experience",
+      "intro": "The solution focused on reducing friction within the Nigerian property search experience by creating a more transparent, engaging, and user-friendly platform powered by short-form video interactions.\n\nThe product experience was designed to help users explore properties faster, access clearer property information, reduce unnecessary middlemen interactions, and make better property decisions through a modern mobile-first browsing experience.",
+      "features": []
+    },
+    "designDecisions": {
+      "heading": "Creating a content-driven real estate browsing experience",
+      "items": [
+        {
+          "title": "Video-first discovery",
+          "description": "Designed a TikTok-inspired browsing experience that allows users to discover properties through short-form video content instead of traditional listing-heavy layouts."
+        },
+        {
+          "title": "Simplified navigation",
+          "description": "Created lightweight and intuitive navigation systems that make property exploration feel faster and easier on mobile devices."
+        },
+        {
+          "title": "Engagement-focused interactions",
+          "description": "Designed interactive experiences such as swipe navigation, saved properties, and quick actions to improve user engagement and browsing continuity."
+        },
+        {
+          "title": "Clean information hierarchy",
+          "description": "Balanced immersive video experiences with structured property information to ensure users can access important details without overwhelming the interface."
+        }
+      ]
+    },
+    "outcome": {
+      "heading": "Creating a more modern and engaging property browsing experience",
+      "paragraphs": [
+        "The final product experience transformed traditional property browsing into a more interactive and visually engaging mobile experience.",
+        "The simplified interactions, video-first discovery system, and clean navigation structure improved usability while creating a more modern real estate exploration experience."
+      ]
+    },
+    "reflection": {
+      "heading": "Designing real estate experiences for modern user behavior",
+      "paragraphs": [
+        "Maneja Pro reinforced the importance of adapting digital experiences to changing user behaviors and content consumption patterns.",
+        "The project highlighted how interaction design, mobile-first thinking, and content-driven experiences can make traditionally complex platforms feel more engaging and intuitive."
+      ]
+    },
+    "screenshots": {
+      "heading": "Product screens & experience highlights",
+      "description": "A visual showcase of key mobile experiences designed to simplify property discovery, improve engagement, and modernize real estate browsing through short-form video interactions.",
+      "images": [
+        "/projects/showcase/maneja-pro/1.svg",
+        "/projects/showcase/maneja-pro/2.svg",
+        "/projects/showcase/maneja-pro/3.svg"
+      ]
+    }
+  },
+  "moneypal": {
+    "title": "MoneyPal",
+    "year": "2026",
+    "liveLink": "Coming Soon Mobile Devices",
+    "overview": "A personal finance mobile application designed to help users track expenses, manage budgets, monitor spending habits, and improve financial decision-making daily.",
+    "heroImage": "/projects/banners/moneypal.svg",
+    "themeColor": "#0B70F8",
+    "roles": ["Fintech", "Product Design", "UX Audit", "UX Writing"],
+    "platforms": ["mobile"],
+    "problem": {
+      "heading": "Tracking expenses and managing budgets shouldn't feel like a full-time job",
+      "paragraphs": [
+        "Many personal finance applications make expense tracking and budget management feel overwhelming through cluttered dashboards, complicated workflows, and difficult-to-understand financial data.",
+        "Users often struggle to stay consistent with tracking their spending, monitoring budgets, and understanding where their money goes daily, making financial management feel stressful instead of helpful."
+      ]
+    },
+    "solution": {
+      "heading": "Designing a simpler and more accessible finance experience",
+      "intro": "The solution focused on simplifying financial management through intuitive mobile interactions, cleaner expense tracking workflows, and structured budgeting experiences.\n\nThe product was designed to improve financial visibility, reduce friction, and help users manage spending habits more efficiently through a lightweight and user-friendly interface.",
+      "features": []
+    },
+    "designDecisions": {
+      "heading": "Simplifying financial workflows through clear product thinking",
+      "items": [
+        {
+          "title": "Expense tracking clarity",
+          "description": "Designed quick and seamless expense entry flows to reduce friction during daily financial tracking."
+        },
+        {
+          "title": "Simplified budget management",
+          "description": "Created structured budget experiences that help users monitor spending progress more clearly and consistently."
+        },
+        {
+          "title": "Financial insights & visibility",
+          "description": "Designed clean spending analytics and breakdowns that improve financial awareness without overwhelming users with excessive data."
+        },
+        {
+          "title": "Mobile-first usability",
+          "description": "Focused heavily on accessibility, navigation clarity, and simplified interactions to create a smoother mobile experience."
+        }
+      ]
+    },
+    "outcome": {
+      "heading": "Creating a more intuitive and engaging finance experience",
+      "paragraphs": [
+        "The final product experience improved usability, simplified budgeting workflows, and created a more approachable financial management system for everyday users.",
+        "The cleaner navigation structure and simplified expense tracking flows reduced complexity while improving overall user experience consistency."
+      ]
+    },
+    "reflection": {
+      "heading": "Designing for simplicity, clarity, and everyday use",
+      "paragraphs": [
+        "Moneypal reinforced the importance of simplicity when designing financial products.",
+        "The project highlighted how thoughtful UX decisions, clear hierarchy, and accessible mobile interactions can make personal finance feel less intimidating and easier to manage consistently."
+      ]
+    },
+    "screenshots": {
+      "heading": "Product screens & experience highlights",
+      "description": "A visual showcase of key mobile experiences designed to simplify expense tracking, budget management, and everyday financial organization seamlessly.",
+      "images": [
+        "/projects/showcase/moneypal/1.svg"
+      ]
+    }
+  },
+  "manofx": {
+    "title": "ManoFX",
+    "year": "2025",
+    "liveLink": "Coming Soon",
+    "overview": "ManoFX is a fintech currency exchange platform designed to simplify cross-currency transactions, wallet management, onboarding, and secure digital financial operations for users in Liberia.",
+    "heroImage": "/projects/banners/manofx.svg",
+    "themeColor": "#510B55",
+    "roles": ["Fintech", "Product Design", "UX Audit", "UX Writing"],
+    "platforms": ["desktop", "mobile"],
+    "problem": {
+      "heading": "Exchanging currency digitally shouldn't feel complicated or untrustworthy",
+      "paragraphs": [
+        "Many users in Liberia still rely on fragmented and informal exchange processes that often feel slow, stressful, and unreliable.",
+        "Users struggled with unclear exchange rates, limited transparency, complicated transaction flows, and difficulty finding trusted exchange partners digitally. Existing financial experiences also lacked modern usability, making onboarding and cross-currency transactions feel confusing for everyday users."
+      ]
+    },
+    "solution": {
+      "heading": "Designing a faster, simpler, and more trustworthy exchange experience",
+      "intro": "The solution focused on simplifying digital currency exchange through intuitive transaction flows, clearer financial visibility, and a more accessible onboarding experience.\n\nThe product experience was designed to help users exchange currencies more confidently, manage wallets seamlessly, and complete transactions faster through a clean and modern fintech interface.",
+      "features": []
+    },
+    "designDecisions": {
+      "heading": "Simplifying financial transactions through better product structure",
+      "items": [
+        {
+          "title": "Simplified exchange flows",
+          "description": "Designed structured transaction experiences that reduce friction during cross-currency exchanges and wallet operations."
+        },
+        {
+          "title": "Simplified navigation",
+          "description": "Created lightweight and intuitive navigation systems that make property exploration feel faster and easier on mobile devices."
+        },
+        {
+          "title": "Trust & transparency",
+          "description": "Improved visibility around exchange processes, transaction details, and onboarding experiences to create a more trustworthy platform experience."
+        },
+        {
+          "title": "Faster user navigation",
+          "description": "Created cleaner navigation systems and simplified user flows that make financial operations easier to understand and complete."
+        },
+        {
+          "title": "Mobile & web Consistency",
+          "description": "Designed responsive experiences that maintain usability and consistency across different devices and user touchpoints."
+        }
+      ]
+    },
+    "outcome": {
+      "heading": "Creating a more accessible and user-friendly exchange experience",
+      "paragraphs": [
+        "The final product experience improved transaction clarity, simplified onboarding workflows, and created a cleaner digital currency exchange system for users.",
+        "The structured financial flows and improved usability helped reduce complexity while making digital exchange experiences feel faster and more approachable."
+      ]
+    },
+    "reflection": {
+      "heading": "Designing fintech experiences around trust and simplicity",
+      "paragraphs": [
+        "ManoFX reinforced the importance of clarity, trust, and usability when designing financial products.",
+        "The project highlighted how thoughtful UX decisions and simplified transaction flows can improve confidence and accessibility within complex financial experiences."
+      ]
+    },
+    "screenshots": {
+      "heading": "Product screens & experience highlights",
+      "description": "A visual showcase of key product experiences designed to simplify onboarding, wallet management, and cross-currency exchange operations seamlessly.",
+      "images": [
+        "/projects/showcase/manofx/1.svg",
+        "/projects/showcase/manofx/2.svg",
+        "/projects/showcase/manofx/3.svg"
+      ]
+    }
+  },
+  "uniquecoop": {
+    "title": "Uniquecoop",
+    "year": "2022",
+    "liveLink": "Check it Live",
+    "overview": "Uniquecoop is a cooperative management platform designed to help organizations manage members, contributions, financial operations, and administrative workflows through centralized and role-based digital systems.",
+    "heroImage": "/projects/banners/uniquecoop.svg",
+    "themeColor": "#8A313A",
+    "roles": ["Coop Tech", "Product Design", "UX Audit", "UX Writing"],
+    "platforms": ["mobile", "desktop"],
+    "problem": {
+      "heading": "Managing cooperative operations shouldn't feel Manual and disconnected",
+      "paragraphs": [
+        "Many cooperative organizations still rely heavily on manual record keeping, fragmented communication systems, and inefficient operational processes to manage members, contributions, and financial activities.",
+        "Administrators often struggled with tracking contributions, managing member information, monitoring financial records, and maintaining operational visibility across multiple disconnected processes. Existing systems also lacked modern usability, making day-to-day operations stressful and time-consuming."
+      ]
+    },
+    "solution": {
+      "heading": "Designing a more structured and efficient cooperative management experience",
+      "intro": "The solution focused on simplifying cooperative operations through centralized dashboards, role-based experiences, and cleaner workflow systems that improve operational visibility and usability.\n\nThe product experience was designed to help organizations manage members, monitor contributions, streamline administrative processes, and access financial information more efficiently through a modern and intuitive interface.",
+      "features": []
+    },
+    "designDecisions": {
+      "heading": "Improving operational efficiency through better product structure",
+      "items": [
+        {
+          "title": "Role-based dashboard system",
+          "description": "Designed tailored experiences for members, administrators, and super administrators to improve workflow organization and platform accessibility."
+        },
+        {
+          "title": "Contribution & financial visibility",
+          "description": "Created structured financial tracking experiences that improve visibility around member contributions, records, and cooperative activities."
+        },
+        {
+          "title": "Simplified administrative workflows",
+          "description": "Reduced operational complexity by organizing navigation systems and administrative actions more clearly across the platform."
+        },
+        {
+          "title": "Scalable platform experience",
+          "description": "Designed reusable interface patterns and structured layouts that support future platform growth and operational scalability."
+        }
+      ]
+    },
+    "outcome": {
+      "heading": "Creating a more organized and accessible cooperative experience",
+      "paragraphs": [
+        "The final product experience improved workflow clarity, operational visibility, and administrative efficiency across the platform.",
+        "The structured dashboard systems and simplified financial workflows reduced manual complexity while creating a more intuitive management experience for cooperative organizations."
+      ]
+    },
+    "reflection": {
+      "heading": "Designing systems that simplify operational complexity",
+      "paragraphs": [
+        "Uniquecoop reinforced the importance of clarity, structure, and scalability when designing operational management systems.",
+        "The project highlighted how thoughtful UX decisions and organized workflows can improve efficiency and create better digital experiences for organizations managing complex administrative processes."
+      ]
+    },
+    "screenshots": {
+      "heading": "Product screens & experience highlights",
+      "description": "A visual showcase of key dashboard experiences designed to simplify member management, contribution tracking, and cooperative administrative operations seamlessly.",
+      "images": [
+        "/projects/showcase/uniquecoop/1.svg",
+        "/projects/showcase/uniquecoop/2.svg",
+        "/projects/showcase/uniquecoop/3.svg",
+        "/projects/showcase/uniquecoop/4.svg",
+        "/projects/showcase/uniquecoop/5.svg",
+        "/projects/showcase/uniquecoop/6.svg"
+      ]
+    }
+  }
+}

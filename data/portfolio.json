@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "slug": "cashtella",
+    "category": "FINTECH • WEB APPLICATION",
+    "title": "Cashtella",
+    "description": "A B2B fintech platform focused on improving cross-border financial transactions, onboarding experiences, and payment operations across web and mobile platforms.",
+    "tags": ["UI/UX Design", "UX Audit", "UX Writing"],
+    "image": "/projects/thumbnails/cashtella.svg"
+  },
+  {
+    "id": 2,
+    "slug": "eventovi",
+    "category": "EVENT MANAGEMENT • MOBILE FIRST WEB APPLICATION",
+    "title": "Eventovi",
+    "description": "An event management platform built to simplify ticketing, guest check-in, volunteer coordination, analytics, donations, and overall event operations digitally.",
+    "tags": ["Product Design", "User Research", "UX Writing"],
+    "image": "/projects/thumbnails/eventovi.svg"
+  },
+  {
+    "id": 3,
+    "slug": "maneja-pro",
+    "category": "REAL ESTATE • MOBILE APPLICATION",
+    "title": "Maneja Pro",
+    "description": "A real estate mobile application inspired by TikTok, designed to simplify property discovery through short-form video content and engaging browsing experiences.",
+    "tags": ["UI/UX Design", "User Research", "UX Writing", "Prototyping"],
+    "image": "/projects/thumbnails/maneja-pro.svg"
+  },
+  {
+    "id": 4,
+    "slug": "moneypal",
+    "category": "FINTECH • MOBILE APPLICATION",
+    "title": "MoneyPal",
+    "description": "A personal finance mobile application designed to help users track expenses, manage budgets, monitor spending habits, and improve financial decision-making daily.",
+    "tags": ["Product Design", "User Research", "Wireframing", "UX Writing", "Prototyping"],
+    "image": "/projects/thumbnails/moneypal.svg"
+  },
+  {
+    "id": 5,
+    "slug": "manofx",
+    "category": "FINTECH • WEB APPLICATION • MOBILE APP",
+    "title": "ManoFX",
+    "description": "A fintech currency exchange platform designed to simplify cross-currency transactions, wallet management, onboarding, and secure digital financial operations seamlessly.",
+    "tags": ["Product Design", "UX Audit", "UX Writing", "Prototyping"],
+    "image": "/projects/thumbnails/manofx.svg"
+  },
+  {
+    "id": 6,
+    "slug": "uniquecoop",
+    "category": "COOPTECH • WEB APPLICATION • MOBILE APP",
+    "title": "Uniquecoop",
+    "description": "A cooperative management platform designed to simplify member management, contribution tracking, financial operations, and administrative workflows through structured digital experiences.",
+    "tags": ["UI/UX Design", "UX Audit", "UX Writing"],
+    "image": "/projects/thumbnails/uniquecoop.svg"
+  }
+]
