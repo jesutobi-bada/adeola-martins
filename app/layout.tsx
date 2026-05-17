@@ -26,8 +26,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const getBaseUrl = () => {
+  if (process.env.NEXT_PUBLIC_SITE_URL) return process.env.NEXT_PUBLIC_SITE_URL;
+  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
+  return 'http://localhost:3000';
+};
+
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
+  metadataBase: new URL(getBaseUrl()),
   title: {
     default: "Adeola Martins - Product Designer",
     template: "%s | Adeola Martins"
