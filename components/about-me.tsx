@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { Trophy, Building2, Lightbulb, Globe, Download } from 'lucide-react';
+import { Trophy, Building2, Lightbulb, Globe, ExternalLink } from 'lucide-react';
 
 const stats = [
   { value: "4+", label: "Years of Experience", icon: Trophy },
@@ -106,9 +106,14 @@ export function AboutMe() {
               style={{ background: 'linear-gradient(164.34deg, #FFFFFF -18.24%, #D3FBFD -6.6%, #EFF1FD 25.14%, #FFFFFF 77.86%)' }}
             >
               <span className="font-semibold text-zinc-900">My Resume:</span>
-              <button className="flex items-center gap-2 text-[#0B70F8] font-bold hover:underline transition-all active:scale-95">
-                <Download className="w-5 h-5" /> Download Resume
-              </button>
+              <a 
+                href="https://drive.google.com/file/d/184EEGwH-jghJd19w6MMvkFHa_8gSMRx5/view?usp=drivesdk" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-center gap-2 text-[#0B70F8] font-bold hover:underline transition-all active:scale-95"
+              >
+                <ExternalLink className="w-5 h-5" /> View Resume
+              </a>
             </div>
 
           </div>

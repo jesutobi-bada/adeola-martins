@@ -66,7 +66,7 @@
   "cashtella": {
     "title": "Cashtella",
     "year": "2024",
-    "liveLink": "Coming Soon",
+    "liveLink": "https://cashtella.com",
     "overview": "Cashtella is a B2B fintech platform designed to help individuals and businesses send invoices, manage virtual debit cards, and process cross-border payments between the United States and Canada through a faster and more seamless digital experience.",
     "heroImage": "/projects/banners/cashtella.svg",
     "themeColor": "#F89504",
@@ -265,7 +265,7 @@
   "manofx": {
     "title": "ManoFX",
     "year": "2025",
-    "liveLink": "Coming Soon",
+    "liveLink": "https://manofx.com",
     "overview": "ManoFX is a fintech currency exchange platform designed to simplify cross-currency transactions, wallet management, onboarding, and secure digital financial operations for users in Liberia.",
     "heroImage": "/projects/banners/manofx.svg",
     "themeColor": "#510B55",
@@ -335,7 +335,7 @@
   "uniquecoop": {
     "title": "Uniquecoop",
     "year": "2022",
-    "liveLink": "Check it Live",
+    "liveLink": "https://uniquecoop.net",
     "overview": "Uniquecoop is a cooperative management platform designed to help organizations manage members, contributions, financial operations, and administrative workflows through centralized and role-based digital systems.",
     "heroImage": "/projects/banners/uniquecoop.svg",
     "themeColor": "#8A313A",

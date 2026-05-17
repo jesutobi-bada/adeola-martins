@@ -2,12 +2,46 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
 import projectDetailsData from '@/data/project-details.json';
 import portfolioData from '@/data/portfolio.json';
 import { Footer } from '@/components/footer';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Smartphone, Monitor, ArrowLeft } from 'lucide-react';
 import { ProjectCard } from '@/components/projects/project-card';
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const resolvedParams = await params;
+  const slug = resolvedParams.slug;
+  
+  let project = (projectDetailsData as any)[slug];
+  const basicProject = portfolioData.find(p => p.slug === slug);
+  
+  if (!basicProject && !project) {
+    return {
+      title: 'Project Not Found'
+    };
+  }
+
+  const title = project?.title || basicProject?.title;
+  const description = project?.overview || basicProject?.description;
+  const image = project?.heroImage || basicProject?.image || '/projects/thumbnails/cashtella.svg'; // Fallback image
+
+  return {
+    title: `${title} | Adeola Martins - Product Designer`,
+    description: description,
+    openGraph: {
+      title: `${title} | Adeola Martins`,
+      description: description,
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${title} | Adeola Martins`,
+      description: description,
+    }
+  };
+}
 
 export default async function ProjectDetailsPage({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;

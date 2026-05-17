@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export function Introduction() {
   return (
-    <section className="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden bg-[linear-gradient(164.34deg,#FFFFFF_-18.24%,#D3FBFD_-6.6%,#EFF1FD_25.14%,#FFFFFF_77.86%)] pt-32 md:pt-40">
+    <section className="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden pt-32 md:pt-40">
       <div className="container mx-auto px-6 py-20 flex flex-col items-center text-center">
         
         {/* Hello Script */}
@@ -22,18 +22,15 @@ export function Introduction() {
           experiences that drive user engagement and business results.
         </p>
 
-        {/* Hire Me Button */}
+        {/* Book a Call Button */}
         <Button 
           asChild
           size="lg" 
           className="w-[220px] h-[60px]"
         >
-          <a href="#contact">Hire Me</a>
+          <a href="https://calendly.com/alabiadeolamartins" target="_blank" rel="noopener noreferrer">Book a Call</a>
         </Button>
 
-        {/* Decorative Elements */}
-        <div className="absolute top-1/4 -left-20 w-96 h-96 bg-primary/10 rounded-full blur-[120px] -z-10 animate-pulse" />
-        <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-blue-400/10 rounded-full blur-[120px] -z-10 animate-pulse delay-700" />
       </div>
     </section>
   );

@@ -71,7 +71,7 @@ export function MyServices() {
           transformStyle: 'preserve-3d',
           transformOrigin: 'bottom center' // Pivot from the bottom to look like it's standing up
         }}
-        className="max-w-[1128px] w-full min-h-[782px] rounded-[60px] border relative overflow-hidden flex flex-col"
+        className="max-w-[960px] w-full min-h-[600px] rounded-[60px] border relative overflow-hidden flex flex-col mx-auto"
       >
         {/* Grid Container */}
         <div className="grid grid-cols-1 md:grid-cols-2 flex-1 relative">
@@ -85,11 +85,11 @@ export function MyServices() {
           {services.map((service, index) => (
             <div 
               key={index}
-              className="group p-10 md:p-14 flex flex-col justify-center gap-6 transition-all duration-300 hover:bg-white m-4 rounded-[40px] relative cursor-pointer hover:shadow-[0px_20px_40px_-10px_rgba(11,112,248,0.1)] z-10"
+              className="group p-6 md:p-8 flex flex-col justify-center gap-6 transition-all duration-300 hover:bg-white m-2 rounded-[32px] relative cursor-pointer hover:shadow-[0px_20px_40px_-10px_rgba(11,112,248,0.1)] z-10"
             >
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-white border border-blue-500/20 flex items-center justify-center shadow-sm">
-                  <service.icon className="w-6 h-6 text-zinc-800" />
+                <div className="w-12 h-12 rounded-full bg-transparent border-2 border-[#0B70F8] flex items-center justify-center">
+                  <service.icon className="w-5 h-5 text-zinc-900" strokeWidth={2.5} />
                 </div>
                 <h3 className="text-2xl font-bold text-zinc-900">{service.title}</h3>
               </div>
@@ -97,11 +97,16 @@ export function MyServices() {
                 {service.description}
               </p>
               
-              {/* Hire Me Link (Shown on Hover) */}
+              {/* Book a Call Link (Shown on Hover) */}
               <div className="overflow-hidden h-0 group-hover:h-8 transition-all duration-300 ease-in-out">
-                <button className="text-[#0B70F8] font-semibold text-lg flex items-center gap-2 hover:underline">
-                  Hire Me
-                </button>
+                <a 
+                  href="https://calendly.com/alabiadeolamartins" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-[#0B70F8] font-semibold text-lg flex items-center gap-2 hover:underline"
+                >
+                  Book a Call
+                </a>
               </div>
             </div>
           ))}
