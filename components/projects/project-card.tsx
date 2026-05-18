@@ -36,12 +36,12 @@ export function ProjectCard({ slug, category, title, description, tags, image, s
       </div>
       
       {showImage && image && (
-        <div className="relative z-10 w-full aspect-[16/10] mb-6 rounded-[24px] overflow-hidden bg-white border border-black/[0.04]">
+        <div className="relative z-10 w-full aspect-[478/230] mb-6 rounded-lg overflow-hidden bg-white border border-black/[0.04]">
           <Image 
             src={image}
             alt={`${title} project thumbnail`}
             fill
-            className="object-contain group-hover:scale-105 transition-transform duration-500"
+            className="object-contain w-full group-hover:scale-105 transition-transform duration-500"
           />
         </div>
       )}
