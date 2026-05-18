@@ -71,10 +71,10 @@ export function AboutMe() {
                 alt="Quote" 
                 width={32} 
                 height={20} 
-                className="absolute top-[14px] left-[8px] transform -rotate-180" 
+                className="absolute top-[14px] left-[8px]" 
               />
               <h3 className="font-sans font-semibold text-[32px] leading-none tracking-[-0.02em] text-zinc-900 relative z-10">
-                I simply complexity through research-driven and scalable design solutions.
+                I simplify complexity through research-driven and scalable design solutions.
               </h3>
             </div>
 
