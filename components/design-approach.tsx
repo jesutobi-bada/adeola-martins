@@ -2,14 +2,14 @@
 
 import React, { useState, useRef, useLayoutEffect } from 'react';
 import Image from 'next/image';
-import { Search, LayoutGrid, Palette, Box, RefreshCcw } from 'lucide-react';
 import gsap from 'gsap';
 
 const steps = [
   {
     id: 1,
     title: "Discover",
-    icon: Search,
+    iconActive: "/icons/discover-active.svg",
+    iconInactive: "/icons/discover-inactive.svg",
     image: "/discover.svg",
     floatingTop: "/discover-a.svg",
     floatingBottom: "/discover-b.svg",
@@ -21,7 +21,8 @@ const steps = [
   {
     id: 2,
     title: "Define",
-    icon: LayoutGrid,
+    iconActive: "/icons/define-active.svg",
+    iconInactive: "/icons/define-inactive.svg",
     image: "/define.svg",
     floatingTop: "/define-a.svg",
     floatingBottom: "/define-b.svg",
@@ -33,7 +34,8 @@ const steps = [
   {
     id: 3,
     title: "Design",
-    icon: Palette,
+    iconActive: "/icons/design-active.svg",
+    iconInactive: "/icons/design-inactive.svg",
     image: "/design.svg",
     floatingTop: "/design-a.svg",
     floatingBottom: "/design-b.svg",
@@ -45,7 +47,8 @@ const steps = [
   {
     id: 4,
     title: "Deliver",
-    icon: Box,
+    iconActive: "/icons/deliver-active.svg",
+    iconInactive: "/icons/deliver-inactive.svg",
     image: "/deliver.svg",
     floatingTop: "/deliver-a.svg",
     floatingBottom: "/deliver-b.svg",
@@ -57,7 +60,8 @@ const steps = [
   {
     id: 5,
     title: "Iterate",
-    icon: RefreshCcw,
+    iconActive: "/icons/iterate-active.svg",
+    iconInactive: "/icons/iterate-inactive.svg",
     image: "/iterate.svg",
     floatingTop: "/iterate-a.svg",
     floatingBottom: "/iterate-b.svg",
@@ -235,7 +239,9 @@ export function DesignApproach() {
                      `}
                    >
                      <span className={`text-[16px] md:text-[18px] ${isActive ? 'font-medium' : 'font-medium'}`}>Step {step.id}:</span>
-                     <step.icon className={`w-5 h-5 flex-shrink-0 transition-colors duration-300 ${isActive ? 'text-[#0B70F8]' : 'text-[#3D4955]'}`} strokeWidth={isActive ? 2.5 : 2} />
+                     <div className="relative w-5 h-5 flex-shrink-0">
+                       <Image src={isActive ? step.iconActive : step.iconInactive} alt={step.title} fill className="object-contain transition-all duration-300" />
+                     </div>
                      <span className={`text-[16px] md:text-[18px] transition-all duration-300 ${isActive ? 'font-bold' : 'font-semibold'}`}>{step.title}</span>
                    </button>
                  </div>
