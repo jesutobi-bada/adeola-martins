@@ -41,7 +41,7 @@ export function ProjectCard({ slug, category, title, description, tags, image, s
             src={image}
             alt={`${title} project thumbnail`}
             fill
-            className="object-cover group-hover:scale-105 transition-transform duration-500"
+            className="object-contain group-hover:scale-105 transition-transform duration-500"
           />
         </div>
       )}

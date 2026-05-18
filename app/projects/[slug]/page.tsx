@@ -76,16 +76,6 @@ export default async function ProjectDetailsPage({ params }: { params: Promise<{
   return (
     <main className="min-h-screen pt-48">
       <div className="max-w-[1128px] mx-auto px-4 w-full flex flex-col items-center">
-        
-        {/* Back Button */}
-        <div className="w-full mb-8">
-          <Link 
-            href="/#projects" 
-            className="inline-flex items-center gap-2 text-[#3D4955] hover:text-[#0B70F8] transition-colors duration-200 font-sans font-semibold text-[14px] md:text-[15px] group"
-          >
-            Back to Projects
-          </Link>
-        </div>
 
         {/* Header Section */}
         <div className="w-full flex flex-col md:flex-row md:items-center justify-between mb-8 gap-6">

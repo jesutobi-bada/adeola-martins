@@ -65,7 +65,7 @@ export function MyServices() {
               <div className="flex flex-col gap-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-transparent border border-[#0B70F8] group-hover:border group-hover:border-zinc-200 group-hover:bg-white group-hover:shadow-sm flex items-center justify-center transition-all duration-300">
-                    <service.icon className="w-5 h-5 text-zinc-900" strokeWidth={2.5} />
+                    <service.icon className="w-5 h-5 text-zinc-900 group-hover:rotate-12 transition-transform duration-300" strokeWidth={2.5} />
                   </div>
                   <h3 className="text-2xl font-bold text-zinc-900">{service.title}</h3>
                 </div>
