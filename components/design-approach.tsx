@@ -78,6 +78,26 @@ export function DesignApproach() {
   const deckRef = useRef<HTMLDivElement>(null);
   const dragRef = useRef<{ startX: number; currentX: number; isDragging: boolean }>({ startX: 0, currentX: 0, isDragging: false });
 
+  // Auto-shuffle timer after 20 seconds
+  React.useEffect(() => {
+    const timer = setInterval(() => {
+      if (deckRef.current) {
+        gsap.to(deckRef.current, {
+          x: -200,
+          opacity: 0,
+          duration: 0.2,
+          onComplete: () => {
+            setActiveStep((prev) => (prev + 1) % steps.length);
+            gsap.fromTo(deckRef.current, { x: 200, opacity: 0 }, { x: 0, opacity: 1, duration: 0.3, ease: "power2.out" });
+          }
+        });
+      } else {
+        setActiveStep((prev) => (prev + 1) % steps.length);
+      }
+    }, 20000);
+    return () => clearInterval(timer);
+  }, [activeStep]);
+
   useLayoutEffect(() => {
     // Animate text content fade/slide
     if (textContentRef.current) {
@@ -322,7 +342,7 @@ export function DesignApproach() {
             </p>
             
             <div className="mt-4 flex flex-col gap-3">
-              <p className="font-sans font-medium text-[14px] leading-[1.4] tracking-[-0.02em] text-[#0B70F8] max-w-sm italic">
+              <p className="font-sans font-medium text-[14px] leading-[1.4] tracking-[-0.02em] text-[#0B70F8] max-w-sm">
                 {steps[activeStep].quote}
               </p>
               <p className="font-sans font-bold text-[14px] leading-none tracking-[-0.02em] text-zinc-900">
