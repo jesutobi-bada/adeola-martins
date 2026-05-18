@@ -4,7 +4,7 @@ export function Introduction() {
   return (
     <section className="relative w-full pt-50 flex items-center justify-center overflow-hidden">
       <div className="container mx-auto px-6 flex flex-col items-center text-center ">
-        
+
         {/* Hello Script */}
         <div className="mb-6 flex items-center gap-2">
           <span className="font-script text-[40px] text-[#000000] leading-none">Hello</span>
@@ -22,14 +22,23 @@ export function Introduction() {
           experiences that drive user engagement and business results.
         </p>
 
-        {/* Book a Call Button */}
-        <Button 
-          asChild
-          size="lg" 
-          className="w-[220px] h-[60px]"
-        >
-          <a href="https://calendly.com/alabiadeolamartins" target="_blank" rel="noopener noreferrer">Book a Call</a>
-        </Button>
+        <div className="flex flex-col md:flex-row gap-5">
+          {/* Book a Call Button */}
+          <Button
+            asChild
+            size="lg"
+            className="w-[220px] h-[60px] shadow-none"
+          >
+            <a href="https://calendly.com/alabiadeolamartins" target="_blank" rel="noopener noreferrer">Book a Call</a>
+          </Button>
+          <Button
+            asChild
+            size="lg"
+            className="w-[220px] h-[60px] bg-transparent border text-primary border-primary shadow-none"
+          >
+            <a href="" target="_blank" rel="noopener noreferrer">View Resume</a>
+          </Button>
+        </div>
 
       </div>
     </section>
