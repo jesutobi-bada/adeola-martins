@@ -32,15 +32,19 @@ export function MyServices() {
     <section className="w-full flex justify-center pb-10 px-4  [perspective:3000px]">
       <div 
         style={{
+          background: 'linear-gradient(164.34deg, #FFFFFF -18.24%, #D3FBFD -6.6%, #EFF1FD 25.14%, #FFFFFF 77.86%)',
           borderColor: '#0B70F840',
           transformStyle: 'preserve-3d',
           transformOrigin: 'bottom center', // Pivot from the bottom to look like it's standing up
           transform: 'rotateX(25deg)'
         }}
-        className="max-w-[960px] w-full min-h-[782px] rounded-[60px] border relative overflow-hidden flex flex-col mx-auto "
+        className="max-w-[960px] w-full min-h-[782px] rounded-[60px] border relative flex flex-col mx-auto "
       >
         {/* Grid Container */}
-        <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 flex-1 relative p-5">
+        <div 
+          style={{ transformStyle: 'preserve-3d' }} 
+          className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 flex-1 relative p-5"
+        >
           
           {/* Vertical Divider */}
           <div className="absolute top-16 bottom-16 left-1/2 w-px bg-blue-500/10 hidden md:block" />
@@ -51,11 +55,16 @@ export function MyServices() {
           {services.map((service, index) => (
             <div 
               key={index}
+              style={{
+                transform: 'translateZ(10px) rotateX(-25deg)',
+                transformOrigin: 'bottom center',
+                transformStyle: 'preserve-3d'
+              }}
               className="group p-6 md:p-8 flex flex-col justify-center transition-all duration-300 hover:bg-white border border-transparent hover:border-zinc-200/80 w-full max-w-[360px] h-fit place-self-center m-2 rounded-[32px] relative cursor-pointer hover:shadow-[0px_20px_40px_-10px_rgba(11,112,248,0.1)] z-10"
             >
               <div className="flex flex-col gap-6">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-transparent border-2 border-[#0B70F8] group-hover:border group-hover:border-zinc-200 group-hover:bg-white group-hover:shadow-sm flex items-center justify-center transition-all duration-300">
+                  <div className="w-12 h-12 rounded-full bg-transparent border border-[#0B70F8] group-hover:border group-hover:border-zinc-200 group-hover:bg-white group-hover:shadow-sm flex items-center justify-center transition-all duration-300">
                     <service.icon className="w-5 h-5 text-zinc-900" strokeWidth={2.5} />
                   </div>
                   <h3 className="text-2xl font-bold text-zinc-900">{service.title}</h3>
