@@ -60,7 +60,7 @@ export function MyServices() {
                 transformOrigin: 'bottom center',
                 transformStyle: 'preserve-3d'
               }}
-              className="group pt-8 px-8 pb-8 flex flex-col justify-start transition-all duration-300 hover:bg-white border border-transparent hover:border-zinc-200/80 w-full max-w-[360px] h-fit place-self-center m-2 rounded-[32px] relative cursor-pointer hover:shadow-[0px_20px_40px_-10px_rgba(11,112,248,0.1)] z-10"
+              className="group pt-8 px-8 pb-16 flex flex-col justify-start transition-all duration-300 hover:bg-white border border-transparent hover:border-zinc-200/80 w-full max-w-[360px] min-h-[300px] place-self-center m-2 rounded-[32px] relative cursor-pointer hover:shadow-[0px_20px_40px_-10px_rgba(11,112,248,0.1)] z-10"
             >
               <div className="flex flex-col gap-6">
                 <div className="flex items-center gap-4">
