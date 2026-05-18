@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button";
 
 export function Introduction() {
   return (
-    <section className="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden pt-32 md:pt-40">
-      <div className="container mx-auto px-6 py-20 flex flex-col items-center text-center">
+    <section className="relative w-full pt-50 flex items-center justify-center overflow-hidden">
+      <div className="container mx-auto px-6 flex flex-col items-center text-center ">
         
         {/* Hello Script */}
         <div className="mb-6 flex items-center gap-2">

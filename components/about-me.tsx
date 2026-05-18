@@ -14,25 +14,28 @@ export function AboutMe() {
     <section className="w-full flex justify-center py-20 px-4">
       <div className="max-w-[1128px] w-full flex flex-col gap-6">
         
-        {/* Section Label */}
-        <h4 className="font-sans font-extrabold text-[14px] leading-none tracking-[-0.02em] text-[#0B70F8] uppercase">
-          ABOUT ME
-        </h4>
+        {/* Top Header Area: Centered Horizontally, Text Left-Aligned */}
+        <div className="w-full max-w-4xl mx-auto flex flex-col gap-6 text-left">
+          {/* Section Label */}
+          <h4 className="font-sans font-extrabold text-[14px] leading-none tracking-[-0.02em] text-[#0B70F8] uppercase">
+            ABOUT ME
+          </h4>
 
-        {/* Headline */}
-        <h2 className="font-sans font-semibold text-[32px] text-zinc-900 tracking-[-0.02em] leading-none max-w-4xl mt-2">
-          Designing products that bridge <span className="text-[#0B70F8]">user needs</span> and <span className="text-[#0B70F8]">business goals</span>
-        </h2>
+          {/* Headline */}
+          <h2 className="font-sans font-semibold text-[32px] text-zinc-900 tracking-[-0.02em] leading-none mt-2">
+            Designing products that bridge <span className="text-[#0B70F8]">user needs</span> and <span className="text-[#0B70F8]">business goals</span>
+          </h2>
 
-        {/* Description Paragraphs */}
-        <div className="flex flex-col gap-6 mt-6 max-w-4xl">
-          <p className="font-sans font-medium text-[18px] md:text-[20px] leading-[1.6] tracking-[-0.02em] text-[#3D4955]">
-            I'm Alabi Adeola Martins, a Product Designer specializing in SaaS platforms, fintech applications, AI products, Web3 experiences, and modern mobile-first digital products.
-          </p>
-          
-          <p className="font-sans font-medium text-[18px] md:text-[20px] leading-[1.6] tracking-normal text-zinc-900">
-            My journey into product design started from a simple curiosity: understanding why some digital experiences feel effortless while others create frustration. That curiosity evolved into a passion for simplifying complex systems and designing products that feel intuitive, scalable, and genuinely useful for people.
-          </p>
+          {/* Description Paragraphs */}
+          <div className="flex flex-col gap-6 mt-6">
+            <p className="font-sans font-medium text-[18px] md:text-[20px] leading-[1.6] tracking-[-0.02em] text-[#3D4955]">
+              I'm Alabi Adeola Martins, a Product Designer specializing in SaaS platforms, fintech applications, AI products, Web3 experiences, and modern mobile-first digital products.
+            </p>
+            
+            <p className="font-sans font-medium text-[18px] md:text-[20px] leading-[1.6] tracking-normal text-zinc-900">
+              My journey into product design started from a simple curiosity: understanding why some digital experiences feel effortless while others create frustration. That curiosity evolved into a passion for simplifying complex systems and designing products that feel intuitive, scalable, and genuinely useful for people.
+            </p>
+          </div>
         </div>
 
         {/* Two Column Layout: Image & Stats */}
