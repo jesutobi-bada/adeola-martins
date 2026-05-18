@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import { Trophy, Building2, Lightbulb, Globe, ExternalLink } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 
 const stats = [
-  { value: "4+", label: "Years of Experience", icon: Trophy },
-  { value: "7+", label: "Trusted Brands", icon: Building2 },
-  { value: "10+", label: "Product Designed", icon: Lightbulb },
-  { value: "5+", label: "Country Served", icon: Globe },
+  { value: "4+", label: "Years of Experience", icon: "/icons/experience.svg" },
+  { value: "7+", label: "Trusted Brands", icon: "/icons/brands.svg" },
+  { value: "10+", label: "Product Designed", icon: "/icons/product.svg" },
+  { value: "5+", label: "Country Served", icon: "/icons/country.svg" },
 ];
 
 export function AboutMe() {
@@ -87,8 +87,10 @@ export function AboutMe() {
             <div className="grid grid-cols-2 gap-4">
               {stats.map((stat, i) => (
                 <div key={i} className="flex items-center gap-4 p-6 bg-white rounded-md shadow-[0px_4px_20px_rgba(0,0,0,0.03)] border border-zinc-100 transition-all hover:shadow-md">
-                  <div className="w-14 h-14 rounded-full bg-[#EFF5FF] flex items-center justify-center flex-shrink-0">
-                    <stat.icon className="w-6 h-6 text-[#0B70F8]" />
+                  <div className="w-14 h-14 rounded-full bg-[#EFF5FF] flex items-center justify-center flex-shrink-0 relative overflow-hidden">
+                    <div className="relative w-6 h-6">
+                      <Image src={stat.icon} alt={stat.label} fill className="object-contain" />
+                    </div>
                   </div>
                   <div>
                     <h4 className="font-bold text-3xl text-zinc-900">{stat.value}</h4>

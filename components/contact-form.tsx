@@ -21,10 +21,10 @@ export function ContactForm() {
 
     try {
       await emailjs.sendForm(
-        'service_rdgvc9s',
-        'template_waugfxa',
+        'service_zvkodzl',
+        'template_zph20qb',
         formRef.current,
-        'pNjrs0uZg-C9-AauA'
+        '3n08uY_n2NFdhvx01'
       );
       setStatus('success');
       formRef.current.reset();

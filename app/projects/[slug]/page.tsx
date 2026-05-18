@@ -213,15 +213,27 @@ export default async function ProjectDetailsPage({ params }: { params: Promise<{
                   {project.solution.intro}
                 </p>
                 {project.solution.features && project.solution.features.length > 0 && (
-                  <div className="flex flex-col gap-3 mt-4">
-                    {project.solution.features.map((feature: string, idx: number) => (
-                      <div key={idx} className="flex items-center gap-4 bg-[#F8FAFD] rounded-[20px] p-3 border border-[#0B70F80D]">
-                        <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center shadow-sm">
-                          <span className="text-[#0B70F8] font-bold text-[12px]">{idx + 1}</span>
+                  <div className="flex flex-col gap-6 mt-6">
+                    {project.solution.features.map((feature: string, idx: number) => {
+                      const getFeatureIcon = (text: string) => {
+                        const lower = text.toLowerCase();
+                        if (lower.includes('operational')) return '/icons/simplified operational flows.svg';
+                        if (lower.includes('visibility')) return '/icons/visibility.svg';
+                        if (lower.includes('task')) return '/icons/task-completion.svg';
+                        if (lower.includes('scalable') || lower.includes('architecture')) return '/icons/scalable-architecture.svg';
+                        return '/icons/product.svg';
+                      };
+                      return (
+                        <div key={idx} className="flex items-center gap-5">
+                          <div className="w-12 h-12 rounded-[100px] bg-[#0B70F80D] border border-[#0B70F81A] flex items-center justify-center flex-shrink-0 relative overflow-hidden">
+                            <div className="relative w-6 h-6">
+                              <Image src={getFeatureIcon(feature)} alt="" fill className="object-contain" />
+                            </div>
+                          </div>
+                          <span className="font-sans font-semibold text-[15px] md:text-[16px] text-zinc-900">{feature}</span>
                         </div>
-                        <span className="font-sans font-semibold text-[15px] text-zinc-900">{feature}</span>
-                      </div>
-                    ))}
+                      );
+                    })}
                   </div>
                 )}
               </div>

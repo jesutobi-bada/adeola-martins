@@ -1,28 +1,28 @@
 "use client";
 
 import React from 'react';
-import { Layout, Box, Search, PenTool } from 'lucide-react';
+import Image from 'next/image';
 
 const services = [
   {
     title: "UIUX Design",
     description: "Creating modern user interfaces and intuitive experiences that improve usability, accessibility, engagement, and product interaction consistency.",
-    icon: Layout
+    icon: "/icons/ui-ux.svg"
   },
   {
     title: "Product Design",
     description: "Designing scalable digital products that balance user needs, business goals, usability, and seamless experiences across web and mobile platforms.",
-    icon: Box
+    icon: "/icons/product-design.svg"
   },
   {
     title: "UX Audit",
     description: "Conducting detailed UX audits to identify usability issues, improve user flows, optimize experiences, and enhance product performance consistently.",
-    icon: Search
+    icon: "/icons/ux-audit.svg"
   },
   {
     title: "UX Writing",
     description: "Crafting clear and user-focused product copy that improves communication, guides interactions, and enhances overall user experience flows.",
-    icon: PenTool
+    icon: "/icons/ux-writing.svg"
   }
 ];
 
@@ -65,7 +65,9 @@ export function MyServices() {
               <div className="flex flex-col gap-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-transparent border border-[#0B70F8] group-hover:border group-hover:border-zinc-200 group-hover:bg-white group-hover:shadow-sm flex items-center justify-center transition-all duration-300">
-                    <service.icon className="w-5 h-5 text-zinc-900 group-hover:rotate-12 transition-transform duration-300" strokeWidth={2.5} />
+                    <div className="relative w-5 h-5 group-hover:rotate-12 transition-transform duration-300">
+                      <Image src={service.icon} alt={service.title} fill className="object-contain" />
+                    </div>
                   </div>
                   <h3 className="text-2xl font-bold text-zinc-900">{service.title}</h3>
                 </div>
