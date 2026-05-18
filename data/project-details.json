@@ -258,7 +258,9 @@
       "heading": "Product screens & experience highlights",
       "description": "A visual showcase of key mobile experiences designed to simplify expense tracking, budget management, and everyday financial organization seamlessly.",
       "images": [
-        "/projects/showcase/moneypal/1.svg"
+        "/projects/showcase/moneypal/1.svg",
+        "/projects/showcase/moneypal/2.svg",
+        "/projects/showcase/moneypal/3.svg"
       ]
     }
   },

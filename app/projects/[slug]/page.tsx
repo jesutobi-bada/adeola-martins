@@ -7,7 +7,7 @@ import projectDetailsData from '@/data/project-details.json';
 import portfolioData from '@/data/portfolio.json';
 import { Footer } from '@/components/footer';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Smartphone, Monitor, ArrowLeft } from 'lucide-react';
+import { ExternalLink, Smartphone, Monitor } from 'lucide-react';
 import { ProjectCard } from '@/components/projects/project-card';
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -83,7 +83,6 @@ export default async function ProjectDetailsPage({ params }: { params: Promise<{
             href="/#projects" 
             className="inline-flex items-center gap-2 text-[#3D4955] hover:text-[#0B70F8] transition-colors duration-200 font-sans font-semibold text-[14px] md:text-[15px] group"
           >
-            <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform duration-200" />
             Back to Projects
           </Link>
         </div>

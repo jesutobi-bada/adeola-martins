@@ -60,7 +60,7 @@ export function MyServices() {
                 transformOrigin: 'bottom center',
                 transformStyle: 'preserve-3d'
               }}
-              className="group p-6 md:p-8 flex flex-col justify-center transition-all duration-300 hover:bg-white border border-transparent hover:border-zinc-200/80 w-full max-w-[360px] h-fit place-self-center m-2 rounded-[32px] relative cursor-pointer hover:shadow-[0px_20px_40px_-10px_rgba(11,112,248,0.1)] z-10"
+              className="group pt-8 px-8 pb-8 flex flex-col justify-start transition-all duration-300 hover:bg-white border border-transparent hover:border-zinc-200/80 w-full max-w-[360px] h-fit place-self-center m-2 rounded-[32px] relative cursor-pointer hover:shadow-[0px_20px_40px_-10px_rgba(11,112,248,0.1)] z-10"
             >
               <div className="flex flex-col gap-6">
                 <div className="flex items-center gap-4">
@@ -75,7 +75,7 @@ export function MyServices() {
               </div>
               
               {/* Hire Me Link (Shown on Hover) */}
-              <div className="overflow-hidden h-0 group-hover:h-8 mt-0 group-hover:mt-6 transition-all duration-300 ease-in-out">
+              <div className="absolute left-8 bottom-6 opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto translate-y-2 group-hover:translate-y-0 transition-all duration-300 ease-in-out">
                 <a 
                   href="https://calendly.com/alabiadeolamartins" 
                   target="_blank" 
