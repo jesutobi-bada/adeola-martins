@@ -38,26 +38,26 @@ export function MyServices() {
           transformOrigin: 'bottom center', // Pivot from the bottom to look like it's standing up
           transform: 'rotateX(25deg)'
         }}
-        className="max-w-[960px] w-full min-h-[782px] rounded-[60px] border relative flex flex-col mx-auto "
+        className="max-w-[960px] w-full min-h-[920px] rounded-[60px] border relative flex flex-col mx-auto "
       >
         {/* Grid Container */}
         <div 
           style={{ transformStyle: 'preserve-3d' }} 
-          className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 flex-1 relative p-5"
+          className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 flex-1 relative p-0"
         >
           
           {/* Vertical Divider */}
-          <div className="absolute top-16 bottom-16 left-1/2 w-px bg-blue-500/10 hidden md:block" />
+          <div style={{ transform: 'translateZ(80px)' }} className="absolute top-16 bottom-16 left-1/2 w-px bg-blue-500/10 hidden md:block" />
           
           {/* Horizontal Divider */}
-          <div className="absolute left-16 right-16 top-1/2 h-px bg-blue-500/30 hidden md:block" />
+          <div style={{ transform: 'translateZ(80px)' }} className="absolute left-16 right-16 top-1/2 h-px bg-blue-500/30 hidden md:block" />
 
           {services.map((service, index) => (
             <div 
               key={index}
               style={{
-                transform: 'translateZ(10px) rotateX(-25deg)',
-                transformOrigin: 'bottom center',
+                transform: `translateZ(80px) translateY(${index < 2 ? '25px' : '-25px'}) rotateX(-25deg)`,
+                transformOrigin: 'center center',
                 transformStyle: 'preserve-3d'
               }}
               className="group pt-8 px-8 pb-16 flex flex-col justify-start transition-all duration-300 hover:bg-white border border-transparent hover:border-zinc-200/80 w-full max-w-[360px] min-h-[300px] place-self-center m-2 rounded-[32px] relative cursor-pointer hover:shadow-[0px_20px_40px_-10px_rgba(11,112,248,0.1)] z-10"
