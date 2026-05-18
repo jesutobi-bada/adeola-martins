@@ -36,7 +36,7 @@ export function Introduction() {
             size="lg"
             className="w-[220px] h-[60px] bg-transparent border text-primary border-primary shadow-none"
           >
-            <a href="" target="_blank" rel="noopener noreferrer">View Resume</a>
+            <a href="https://drive.google.com/file/d/184EEGwH-jghJd19w6MMvkFHa_8gSMRx5/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">View Resume</a>
           </Button>
         </div>
 
