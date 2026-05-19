@@ -59,6 +59,7 @@ import { SmoothScroll } from "@/components/providers/smooth-scroll";
 import { Navbar } from "@/components/navbar";
 
 import { ScrollToTop } from "@/components/scroll-to-top";
+import { TawkMessenger } from "@/components/tawk-messenger";
 
 export default function RootLayout({
   children,
@@ -76,6 +77,7 @@ export default function RootLayout({
           <Navbar />
           {children}
         </SmoothScroll>
+        <TawkMessenger />
       </body>
     </html>
   );
